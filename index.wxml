@@ -1,0 +1,26 @@
+<view class="container">
+     <!-- 第一区域：用户信息 -->
+     <view class="user">
+          <view class="one">
+                <image src="{{src}}"></image>
+                <view class="two">
+                      <text class="name">{{name}}</text>
+                      <text class="id">微信号：{{id}}</text>
+                </view>
+          </view>
+     </view>
+     <view class="main">
+            <view class="poster">
+                <button bindtap="goPoster">帖子</button>
+             </view>
+             <view class="product">
+                <button bindtap="goProduct">商品</button>
+             </view>
+             <view class="collecion">
+                <button bindtap="goCollection">收藏</button>
+             </view>
+     </view>
+     <view class="set">
+          <button bindtap="goSeting">设置</button>
+     </view>
+</view>
